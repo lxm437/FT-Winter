@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_00e202514427429735bc7c69129cb202 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_00e202514427429735bc7c69129cb202" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_00e202514427429735bc7c69129cb202 = L.map(
+                "map_00e202514427429735bc7c69129cb202",
+                {
+                    center: [51.1657, 10.4515],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_01db2555329f92258e51a8c9d41ac6e1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+            var marker_d748814695736c3530306fa3fa73d1f8 = L.marker(
+                [51.041, 13.738],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_b1c1520724cfe2e46f7892b4a279a10a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b2582e10a32882091195a5f1863e9f9 = $(`<div id="html_2b2582e10a32882091195a5f1863e9f9" style="width: 100.0%; height: 100.0%;"><b>Jürgen Podolski</b><br>Birthplace (1970, East Germany)</div>`)[0];
+            popup_b1c1520724cfe2e46f7892b4a279a10a.setContent(html_2b2582e10a32882091195a5f1863e9f9);
+        
+
+        marker_d748814695736c3530306fa3fa73d1f8.bindPopup(popup_b1c1520724cfe2e46f7892b4a279a10a)
+        ;
+
+        
+    
+    
+            marker_d748814695736c3530306fa3fa73d1f8.bindTooltip(
+                `<div>
+                     Jürgen Podolski
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a2ffa71c91d8be59f6970125193bed8 = L.marker(
+                [46.837, 17.741],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_5b23a4a55d1d20ce2aa31b64d4564b7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4433a1055e74a722e9198d890b08c041 = $(`<div id="html_4433a1055e74a722e9198d890b08c041" style="width: 100.0%; height: 100.0%;"><b>Jürgen Podolski</b><br>Balaton Holidays (Childhood)</div>`)[0];
+            popup_5b23a4a55d1d20ce2aa31b64d4564b7d.setContent(html_4433a1055e74a722e9198d890b08c041);
+        
+
+        marker_7a2ffa71c91d8be59f6970125193bed8.bindPopup(popup_5b23a4a55d1d20ce2aa31b64d4564b7d)
+        ;
+
+        
+    
+    
+            marker_7a2ffa71c91d8be59f6970125193bed8.bindTooltip(
+                `<div>
+                     Jürgen Podolski
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3b38c49c904860084ddaf8f2d21f090 = L.marker(
+                [48.109, 20.09],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_ecdff64c38229d36ca9e51706754621d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3ee907f78f3c851a44cd0e8e210bb42 = $(`<div id="html_f3ee907f78f3c851a44cd0e8e210bb42" style="width: 100.0%; height: 100.0%;"><b>Jürgen Podolski</b><br>Mátranovák (Favorite Spot)</div>`)[0];
+            popup_ecdff64c38229d36ca9e51706754621d.setContent(html_f3ee907f78f3c851a44cd0e8e210bb42);
+        
+
+        marker_a3b38c49c904860084ddaf8f2d21f090.bindPopup(popup_ecdff64c38229d36ca9e51706754621d)
+        ;
+
+        
+    
+    
+            marker_a3b38c49c904860084ddaf8f2d21f090.bindTooltip(
+                `<div>
+                     Jürgen Podolski
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_959c523a26c4d30ea9609d4487106a36 = L.marker(
+                [52.52, 13.405],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_c92740542fdadd821e6ed459a944df35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ea9a1e4f63406fdec2a0f47b11a8501 = $(`<div id="html_0ea9a1e4f63406fdec2a0f47b11a8501" style="width: 100.0%; height: 100.0%;"><b>Jürgen Podolski</b><br>Berlin (Teen Years)</div>`)[0];
+            popup_c92740542fdadd821e6ed459a944df35.setContent(html_0ea9a1e4f63406fdec2a0f47b11a8501);
+        
+
+        marker_959c523a26c4d30ea9609d4487106a36.bindPopup(popup_c92740542fdadd821e6ed459a944df35)
+        ;
+
+        
+    
+    
+            marker_959c523a26c4d30ea9609d4487106a36.bindTooltip(
+                `<div>
+                     Jürgen Podolski
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e454cb82d885b5b60ed3d3c3d7ee82a7 = L.marker(
+                [51.3397, 12.3731],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_a8059fa584d1e7da44ed7cef30bef022 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06481c5df4e17c6c350cafdb4ebe2406 = $(`<div id="html_06481c5df4e17c6c350cafdb4ebe2406" style="width: 100.0%; height: 100.0%;"><b>Jürgen Podolski</b><br>Arrest (Late Teens)</div>`)[0];
+            popup_a8059fa584d1e7da44ed7cef30bef022.setContent(html_06481c5df4e17c6c350cafdb4ebe2406);
+        
+
+        marker_e454cb82d885b5b60ed3d3c3d7ee82a7.bindPopup(popup_a8059fa584d1e7da44ed7cef30bef022)
+        ;
+
+        
+    
+    
+            marker_e454cb82d885b5b60ed3d3c3d7ee82a7.bindTooltip(
+                `<div>
+                     Jürgen Podolski
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0be285d435f2d88d1a1f90f88f69f84 = L.marker(
+                [48.109, 20.09],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_0affee65295395c098d844879401157b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_500de0614e6889903814a4f2cf576161 = $(`<div id="html_500de0614e6889903814a4f2cf576161" style="width: 100.0%; height: 100.0%;"><b>Jürgen Podolski</b><br>Mátranovák (Rebirth as Valentino)</div>`)[0];
+            popup_0affee65295395c098d844879401157b.setContent(html_500de0614e6889903814a4f2cf576161);
+        
+
+        marker_d0be285d435f2d88d1a1f90f88f69f84.bindPopup(popup_0affee65295395c098d844879401157b)
+        ;
+
+        
+    
+    
+            marker_d0be285d435f2d88d1a1f90f88f69f84.bindTooltip(
+                `<div>
+                     Jürgen Podolski
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ca45074e721bf387d23021ffdba2200 = L.marker(
+                [50.9787, 11.0328],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_a920b746574c26109e2e243f4c535f01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fe8de1c1ce5d5e8e036f4923f9141a7 = $(`<div id="html_7fe8de1c1ce5d5e8e036f4923f9141a7" style="width: 100.0%; height: 100.0%;"><b>Robbie Burger (Moskauer)</b><br>Born in East Germany</div>`)[0];
+            popup_a920b746574c26109e2e243f4c535f01.setContent(html_7fe8de1c1ce5d5e8e036f4923f9141a7);
+        
+
+        marker_2ca45074e721bf387d23021ffdba2200.bindPopup(popup_a920b746574c26109e2e243f4c535f01)
+        ;
+
+        
+    
+    
+            marker_2ca45074e721bf387d23021ffdba2200.bindTooltip(
+                `<div>
+                     Robbie Burger (Moskauer)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89ab83d7a17bffb4e6fedb4aac6d1559 = L.marker(
+                [49.1962, 16.6076],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_3a16170427054504071b15d49e815a10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_562aa6f64ed4bcc3a95e4ed1da2fe1ea = $(`<div id="html_562aa6f64ed4bcc3a95e4ed1da2fe1ea" style="width: 100.0%; height: 100.0%;"><b>Robbie Burger (Moskauer)</b><br>Czechoslovakia (Early Ventures)</div>`)[0];
+            popup_3a16170427054504071b15d49e815a10.setContent(html_562aa6f64ed4bcc3a95e4ed1da2fe1ea);
+        
+
+        marker_89ab83d7a17bffb4e6fedb4aac6d1559.bindPopup(popup_3a16170427054504071b15d49e815a10)
+        ;
+
+        
+    
+    
+            marker_89ab83d7a17bffb4e6fedb4aac6d1559.bindTooltip(
+                `<div>
+                     Robbie Burger (Moskauer)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92c692f3b6b73fa59a2b0b48c689ae56 = L.marker(
+                [50.0647, 19.945],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_4a33ec7a24407b4c19e302a2144c3022 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd79fed3a5ec1a14a5a130926cf954f1 = $(`<div id="html_dd79fed3a5ec1a14a5a130926cf954f1" style="width: 100.0%; height: 100.0%;"><b>Robbie Burger (Moskauer)</b><br>Poland (Smuggling Activities)</div>`)[0];
+            popup_4a33ec7a24407b4c19e302a2144c3022.setContent(html_dd79fed3a5ec1a14a5a130926cf954f1);
+        
+
+        marker_92c692f3b6b73fa59a2b0b48c689ae56.bindPopup(popup_4a33ec7a24407b4c19e302a2144c3022)
+        ;
+
+        
+    
+    
+            marker_92c692f3b6b73fa59a2b0b48c689ae56.bindTooltip(
+                `<div>
+                     Robbie Burger (Moskauer)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5a603ebe65be63a711b02fba591f41c = L.marker(
+                [50.3, 18.7],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_a475e05cf99d7e912249346628784e7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f0c7223c440e89f3e4f41498ef28b8d = $(`<div id="html_2f0c7223c440e89f3e4f41498ef28b8d" style="width: 100.0%; height: 100.0%;"><b>Piotr Sukmadikowski</b><br>Birthplace (Szilézia)</div>`)[0];
+            popup_a475e05cf99d7e912249346628784e7d.setContent(html_2f0c7223c440e89f3e4f41498ef28b8d);
+        
+
+        marker_f5a603ebe65be63a711b02fba591f41c.bindPopup(popup_a475e05cf99d7e912249346628784e7d)
+        ;
+
+        
+    
+    
+            marker_f5a603ebe65be63a711b02fba591f41c.bindTooltip(
+                `<div>
+                     Piotr Sukmadikowski
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6e8cb313b29f4ef35697b020f2d3777 = L.marker(
+                [50.664, 19.138],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_8b468148febb6a809e622ec48671ff00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2da0de1ab6f806fb96a6464d0e1f192 = $(`<div id="html_c2da0de1ab6f806fb96a6464d0e1f192" style="width: 100.0%; height: 100.0%;"><b>Piotr Sukmadikowski</b><br>First Experiment</div>`)[0];
+            popup_8b468148febb6a809e622ec48671ff00.setContent(html_c2da0de1ab6f806fb96a6464d0e1f192);
+        
+
+        marker_a6e8cb313b29f4ef35697b020f2d3777.bindPopup(popup_8b468148febb6a809e622ec48671ff00)
+        ;
+
+        
+    
+    
+            marker_a6e8cb313b29f4ef35697b020f2d3777.bindTooltip(
+                `<div>
+                     Piotr Sukmadikowski
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53a0bc17b6f644e391dfc65b99e7eabd = L.marker(
+                [50.499, 12.931],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_687a3ce37bb37a5a8bd7bb2a3281526c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8dc0f0b9a9fe554f9eced389e13dd0f9 = $(`<div id="html_8dc0f0b9a9fe554f9eced389e13dd0f9" style="width: 100.0%; height: 100.0%;"><b>Bock Wildersmann</b><br>Fichtelberg (Research)</div>`)[0];
+            popup_687a3ce37bb37a5a8bd7bb2a3281526c.setContent(html_8dc0f0b9a9fe554f9eced389e13dd0f9);
+        
+
+        marker_53a0bc17b6f644e391dfc65b99e7eabd.bindPopup(popup_687a3ce37bb37a5a8bd7bb2a3281526c)
+        ;
+
+        
+    
+    
+            marker_53a0bc17b6f644e391dfc65b99e7eabd.bindTooltip(
+                `<div>
+                     Bock Wildersmann
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_182d392cdcab92f84aead00107ba8f5e = L.marker(
+                [50.718, 12.486],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_a0d9de41ead4a3b863b28bd12752d4c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e975edbfcc2115e6d73d4097eda2e97 = $(`<div id="html_5e975edbfcc2115e6d73d4097eda2e97" style="width: 100.0%; height: 100.0%;"><b>Bock Wildersmann</b><br>Underground Music Events</div>`)[0];
+            popup_a0d9de41ead4a3b863b28bd12752d4c5.setContent(html_5e975edbfcc2115e6d73d4097eda2e97);
+        
+
+        marker_182d392cdcab92f84aead00107ba8f5e.bindPopup(popup_a0d9de41ead4a3b863b28bd12752d4c5)
+        ;
+
+        
+    
+    
+            marker_182d392cdcab92f84aead00107ba8f5e.bindTooltip(
+                `<div>
+                     Bock Wildersmann
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2eb1d67128ff34ec7f3ab210449e5aa = L.marker(
+                [52.52, 13.405],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_a60a7d1537ec071cbfb7b76eec8b8b15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e0a62b476728179572040cebaf0f0dd = $(`<div id="html_1e0a62b476728179572040cebaf0f0dd" style="width: 100.0%; height: 100.0%;"><b>Udo Starkmann</b><br>Berlin (Techno Movement)</div>`)[0];
+            popup_a60a7d1537ec071cbfb7b76eec8b8b15.setContent(html_1e0a62b476728179572040cebaf0f0dd);
+        
+
+        marker_b2eb1d67128ff34ec7f3ab210449e5aa.bindPopup(popup_a60a7d1537ec071cbfb7b76eec8b8b15)
+        ;
+
+        
+    
+    
+            marker_b2eb1d67128ff34ec7f3ab210449e5aa.bindTooltip(
+                `<div>
+                     Udo Starkmann
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ec6770a27961dde6835a1d10eb4f8e9 = L.marker(
+                [50.8278, 12.9214],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_b8f5bde9f21f7f5919a6187acdba1cb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_081a70fb05c608a5ae6a56a450006a58 = $(`<div id="html_081a70fb05c608a5ae6a56a450006a58" style="width: 100.0%; height: 100.0%;"><b>Udo Starkmann</b><br>Chemnitz (Early Experiments)</div>`)[0];
+            popup_b8f5bde9f21f7f5919a6187acdba1cb1.setContent(html_081a70fb05c608a5ae6a56a450006a58);
+        
+
+        marker_8ec6770a27961dde6835a1d10eb4f8e9.bindPopup(popup_b8f5bde9f21f7f5919a6187acdba1cb1)
+        ;
+
+        
+    
+    
+            marker_8ec6770a27961dde6835a1d10eb4f8e9.bindTooltip(
+                `<div>
+                     Udo Starkmann
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25f6c0c1de41b0a488f61b63c559f38d = L.marker(
+                [50.7374, 7.0982],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_c7813dabd2fff4b1ccaa67f9ba47b3a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aaa14bbcc56843398a8b8f5fe424d40 = $(`<div id="html_0aaa14bbcc56843398a8b8f5fe424d40" style="width: 100.0%; height: 100.0%;"><b>Totó Tannhäuser</b><br>Born in Bonn</div>`)[0];
+            popup_c7813dabd2fff4b1ccaa67f9ba47b3a0.setContent(html_0aaa14bbcc56843398a8b8f5fe424d40);
+        
+
+        marker_25f6c0c1de41b0a488f61b63c559f38d.bindPopup(popup_c7813dabd2fff4b1ccaa67f9ba47b3a0)
+        ;
+
+        
+    
+    
+            marker_25f6c0c1de41b0a488f61b63c559f38d.bindTooltip(
+                `<div>
+                     Totó Tannhäuser
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b7b8caa2adb3ab5166e1c653316ba97 = L.marker(
+                [51.0504, 13.7373],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_7849d59b7dc683175e8040cc5fe66dbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae8bbba6db2be5f792344211123a063d = $(`<div id="html_ae8bbba6db2be5f792344211123a063d" style="width: 100.0%; height: 100.0%;"><b>Totó Tannhäuser</b><br>Dresden (Avantgarde Movement)</div>`)[0];
+            popup_7849d59b7dc683175e8040cc5fe66dbf.setContent(html_ae8bbba6db2be5f792344211123a063d);
+        
+
+        marker_3b7b8caa2adb3ab5166e1c653316ba97.bindPopup(popup_7849d59b7dc683175e8040cc5fe66dbf)
+        ;
+
+        
+    
+    
+            marker_3b7b8caa2adb3ab5166e1c653316ba97.bindTooltip(
+                `<div>
+                     Totó Tannhäuser
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4654cefcbfbdff72c8518b255b3fb81f = L.marker(
+                [51.34, 12.3731],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_542184d5f182679578b074651594d6ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f18e076e57c846f79564b15d91e497d4 = $(`<div id="html_f18e076e57c846f79564b15d91e497d4" style="width: 100.0%; height: 100.0%;"><b>Totó Tannhäuser</b><br>Leipzig (Later Activities)</div>`)[0];
+            popup_542184d5f182679578b074651594d6ca.setContent(html_f18e076e57c846f79564b15d91e497d4);
+        
+
+        marker_4654cefcbfbdff72c8518b255b3fb81f.bindPopup(popup_542184d5f182679578b074651594d6ca)
+        ;
+
+        
+    
+    
+            marker_4654cefcbfbdff72c8518b255b3fb81f.bindTooltip(
+                `<div>
+                     Totó Tannhäuser
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76f5b4ee144b579dca659190376b9eb7 = L.marker(
+                [51.1528, 14.9878],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_d6499e6b857954e12c13d2bda9a5151c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9a13fcd04f9d0114b4c32eaf16f50bb = $(`<div id="html_d9a13fcd04f9d0114b4c32eaf16f50bb" style="width: 100.0%; height: 100.0%;"><b>Gustav Krenz</b><br>Birthplace (Görlitz)</div>`)[0];
+            popup_d6499e6b857954e12c13d2bda9a5151c.setContent(html_d9a13fcd04f9d0114b4c32eaf16f50bb);
+        
+
+        marker_76f5b4ee144b579dca659190376b9eb7.bindPopup(popup_d6499e6b857954e12c13d2bda9a5151c)
+        ;
+
+        
+    
+    
+            marker_76f5b4ee144b579dca659190376b9eb7.bindTooltip(
+                `<div>
+                     Gustav Krenz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36d4778f308ad0f0edf21723b327eb2d = L.marker(
+                [51.1512, 14.995],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_6dd19c4b0a96ce409f7fec5b17fb58f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2777f6ca87438327857219adab046c98 = $(`<div id="html_2777f6ca87438327857219adab046c98" style="width: 100.0%; height: 100.0%;"><b>Gustav Krenz</b><br>Key Events</div>`)[0];
+            popup_6dd19c4b0a96ce409f7fec5b17fb58f8.setContent(html_2777f6ca87438327857219adab046c98);
+        
+
+        marker_36d4778f308ad0f0edf21723b327eb2d.bindPopup(popup_6dd19c4b0a96ce409f7fec5b17fb58f8)
+        ;
+
+        
+    
+    
+            marker_36d4778f308ad0f0edf21723b327eb2d.bindTooltip(
+                `<div>
+                     Gustav Krenz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45e319482973726286ee56367dfc261f = L.marker(
+                [51.7601, 14.3346],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_59e0b400105f931c54db1ea93a68567d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c74c0b0cd20400f62870da88b00dac8 = $(`<div id="html_4c74c0b0cd20400f62870da88b00dac8" style="width: 100.0%; height: 100.0%;"><b>Stefan Pracht</b><br>Born in Cottbus</div>`)[0];
+            popup_59e0b400105f931c54db1ea93a68567d.setContent(html_4c74c0b0cd20400f62870da88b00dac8);
+        
+
+        marker_45e319482973726286ee56367dfc261f.bindPopup(popup_59e0b400105f931c54db1ea93a68567d)
+        ;
+
+        
+    
+    
+            marker_45e319482973726286ee56367dfc261f.bindTooltip(
+                `<div>
+                     Stefan Pracht
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a80192fdc438e5a1d4a657c7af14bbe2 = L.marker(
+                [52.5167, 13.3833],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_0d50b4bb6178d616c9e3f9cff8d8c746 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c0cda67987bf04ec1ad0de9d723e747 = $(`<div id="html_0c0cda67987bf04ec1ad0de9d723e747" style="width: 100.0%; height: 100.0%;"><b>Stefan Pracht</b><br>Berlin (DJ Life)</div>`)[0];
+            popup_0d50b4bb6178d616c9e3f9cff8d8c746.setContent(html_0c0cda67987bf04ec1ad0de9d723e747);
+        
+
+        marker_a80192fdc438e5a1d4a657c7af14bbe2.bindPopup(popup_0d50b4bb6178d616c9e3f9cff8d8c746)
+        ;
+
+        
+    
+    
+            marker_a80192fdc438e5a1d4a657c7af14bbe2.bindTooltip(
+                `<div>
+                     Stefan Pracht
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efd8b9962ef29e4129ecedf1acb6c33c = L.marker(
+                [50.9801, 11.0334],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_e6cc49ad9603d77f1877d6a37168c436 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_841f5ba5f74d944c1a2365a2182415fe = $(`<div id="html_841f5ba5f74d944c1a2365a2182415fe" style="width: 100.0%; height: 100.0%;"><b>Wolfgang Scholz</b><br>Born in Eisenach</div>`)[0];
+            popup_e6cc49ad9603d77f1877d6a37168c436.setContent(html_841f5ba5f74d944c1a2365a2182415fe);
+        
+
+        marker_efd8b9962ef29e4129ecedf1acb6c33c.bindPopup(popup_e6cc49ad9603d77f1877d6a37168c436)
+        ;
+
+        
+    
+    
+            marker_efd8b9962ef29e4129ecedf1acb6c33c.bindTooltip(
+                `<div>
+                     Wolfgang Scholz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edaeb91c7802ce80ebfe91c7d685d6b6 = L.marker(
+                [51.34, 12.3731],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_b382d3b1b62ccfba8c4d5a3a1e4413d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d780c215e7d17c596de8727ed715cd3 = $(`<div id="html_9d780c215e7d17c596de8727ed715cd3" style="width: 100.0%; height: 100.0%;"><b>Wolfgang Scholz</b><br>Lipcse Events</div>`)[0];
+            popup_b382d3b1b62ccfba8c4d5a3a1e4413d2.setContent(html_9d780c215e7d17c596de8727ed715cd3);
+        
+
+        marker_edaeb91c7802ce80ebfe91c7d685d6b6.bindPopup(popup_b382d3b1b62ccfba8c4d5a3a1e4413d2)
+        ;
+
+        
+    
+    
+            marker_edaeb91c7802ce80ebfe91c7d685d6b6.bindTooltip(
+                `<div>
+                     Wolfgang Scholz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6a02cb9e137ebe587d5029b830702ac = L.marker(
+                [50.8278, 12.9214],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_7d29c4a89457b1b7ff131632d2b03e0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6a83bfb5eea70b053cee5a0d1bb148f = $(`<div id="html_a6a83bfb5eea70b053cee5a0d1bb148f" style="width: 100.0%; height: 100.0%;"><b>Dietmar Rumänisch</b><br>Early Ventures (Chemnitz)</div>`)[0];
+            popup_7d29c4a89457b1b7ff131632d2b03e0b.setContent(html_a6a83bfb5eea70b053cee5a0d1bb148f);
+        
+
+        marker_b6a02cb9e137ebe587d5029b830702ac.bindPopup(popup_7d29c4a89457b1b7ff131632d2b03e0b)
+        ;
+
+        
+    
+    
+            marker_b6a02cb9e137ebe587d5029b830702ac.bindTooltip(
+                `<div>
+                     Dietmar Rumänisch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b65b700cbbe33559bc1948aecf1f361b = L.marker(
+                [51.34, 12.3731],
+                {}
+            ).addTo(map_00e202514427429735bc7c69129cb202);
+        
+    
+        var popup_440f2ef7899f07b590df5bc1893fc1fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c461e0273e34115b3837e2f3c7abdc0e = $(`<div id="html_c461e0273e34115b3837e2f3c7abdc0e" style="width: 100.0%; height: 100.0%;"><b>Dietmar Rumänisch</b><br>Later Ventures (Lipcse)</div>`)[0];
+            popup_440f2ef7899f07b590df5bc1893fc1fd.setContent(html_c461e0273e34115b3837e2f3c7abdc0e);
+        
+
+        marker_b65b700cbbe33559bc1948aecf1f361b.bindPopup(popup_440f2ef7899f07b590df5bc1893fc1fd)
+        ;
+
+        
+    
+    
+            marker_b65b700cbbe33559bc1948aecf1f361b.bindTooltip(
+                `<div>
+                     Dietmar Rumänisch
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
